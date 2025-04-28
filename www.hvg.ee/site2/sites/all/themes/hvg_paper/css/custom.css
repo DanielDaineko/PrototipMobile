@@ -1,0 +1,557 @@
+html, body{
+   height: 100%;
+   min-height: 100%;
+}
+
+/* line 1, ../sass/custom.scss */
+.nafplb-flickrimage {
+  pointer-events: none;
+  cursor: default;
+}
+
+/* line 5, ../sass/custom.scss */
+span.flickr-credit {
+  display: none;
+}
+
+/* line 1, ../sass/custom.scss */
+/* line 10, ../sass/custom.scss */
+.sf-menu.sf-style-white a.sf-with-ul, .sf-menu.sf-style-white span.nolink.sf-with-ul {
+  padding-right: 2.25em;
+  background-color: #fff;
+}
+
+/* line 5, ../sass/custom.scss */
+/* line 16, ../sass/custom.scss */
+.sf-menu.sf-style-white a, .sf-menu.sf-style-white span.nolink {
+  border: 0px #fff;
+}
+
+/* line 8, ../sass/custom.scss */
+/* line 21, ../sass/custom.scss */
+.sf-menu.sf-style-white li:hover, .sf-menu.sf-style-white li.sfHover, .sf-menu.sf-style-white a:focus, .sf-menu.sf-style-white a:hover, .sf-menu.sf-style-white a:active, .sf-menu.sf-style-white span.nolink:hover, .sf-menu.sf-style-white.sf-navbar li li {
+  background: #f7f7f7;
+}
+
+/* line 11, ../sass/custom.scss */
+/* line 26, ../sass/custom.scss */
+.sf-menu {
+  font: inherit;
+  /*    font-size: 75%; */
+  margin-bottom: 0em;
+  margin-top: 1.6em;
+}
+
+/* line 20, ../sass/custom.scss */
+/* line 35, ../sass/custom.scss */
+.sf-menu
+ul a:hover {
+  text-decoration: none;
+  background: #b5d8fa;
+}
+
+/* line 27, ../sass/custom.scss */
+/* line 42, ../sass/custom.scss */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight:200 !important;
+  /*  margin-top: -32px;
+  margin-bottom: 15px;
+  background-image: url("img/bg.jpg"); 
+  background-size: 100%;
+  background-position-y: center;
+  padding-top: 30px;
+  background-size: cover;*/
+}
+h1, .h1 {
+font-size:40px;
+}
+/*
+.sf-menu.sf-style-light-blue li:hover, .sf-menu.sf-style-light-blue li.sfHover, .sf-menu.sf-style-light-blue a:focus, .sf-menu.sf-style-light-blue a:hover, .sf-menu.sf-style-light-blue a:active, .sf-menu.sf-style-light-blue span.nolink:hover, .sf-menu.sf-style-light-blue.sf-navbar li li {
+    background: #b5d8fa;
+    color: #001020;
+}
+*/
+/* ------------------- FOOTER ----------------------------*/
+/* line 47, ../sass/custom.scss */
+/* line 60, ../sass/custom.scss */
+.full {
+  width: 100%;
+}
+
+/* line 50, ../sass/custom.scss */
+/* line 65, ../sass/custom.scss */
+.gap {
+  height: 30px;
+  width: 100%;
+  clear: both;
+  display: block;
+}
+
+/* line 56, ../sass/custom.scss */
+/* line 73, ../sass/custom.scss */
+.footer {
+  background:  #EDEFF1;
+  height: auto;
+  padding: 0px;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #CCCCCC;
+  border-top: 1px solid #DDDDDD;
+}
+
+/* line 65, ../sass/custom.scss */
+/* line 84, ../sass/custom.scss */
+.footer p {
+  margin: 0;
+}
+
+/* line 68, ../sass/custom.scss */
+/* line 89, ../sass/custom.scss */
+.footer img {
+  max-width: 100%;
+}
+
+/* line 71, ../sass/custom.scss */
+/* line 94, ../sass/custom.scss */
+.footer h3 {
+  border-bottom: 1px solid #BAC1C8;
+  color: #777777;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  padding: 40px 0 10px;
+  text-transform: uppercase;
+}
+
+/* line 80, ../sass/custom.scss */
+/* line 105, ../sass/custom.scss */
+.footer ul {
+  font-size: 13px;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 15px;
+  color: #777777;
+}
+
+/* line 88, ../sass/custom.scss */
+/* line 115, ../sass/custom.scss */
+.footer ul li a {
+  padding: 0 0 5px 0;
+  display: block;
+}
+
+/* line 92, ../sass/custom.scss */
+/* line 121, ../sass/custom.scss */
+.footer a {
+  color: #777777;
+}
+
+/* line 95, ../sass/custom.scss */
+/* line 126, ../sass/custom.scss */
+.supportLi h4 {
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: normal;
+  margin-bottom: 0 !important;
+  padding-bottom: 0;
+}
+
+/* line 102, ../sass/custom.scss */
+/* line 135, ../sass/custom.scss */
+.newsletter-box input#appendedInputButton {
+  background: #FFFFFF;
+  display: inline-block;
+  float: left;
+  height: 30px;
+  clear: both;
+  width: 100%;
+}
+
+/* line 110, ../sass/custom.scss */
+/* line 145, ../sass/custom.scss */
+.newsletter-box .btn {
+  border: medium none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  height: 40px;
+  padding: 0;
+  width: 100%;
+  color: #777777;
+}
+
+/* line 123, ../sass/custom.scss */
+/* line 160, ../sass/custom.scss */
+.newsletter-box {
+  overflow: hidden;
+}
+
+/* line 126, ../sass/custom.scss */
+/* line 165, ../sass/custom.scss */
+.bg-gray {
+  background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+  box-shadow: 0 1px 0 #B4B3B3;
+}
+
+/* line 130, ../sass/custom.scss */
+/* line 171, ../sass/custom.scss */
+.social li {
+  background: none repeat scroll 0 0 #B5B5B5;
+  border: 2px solid #B5B5B5;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  float: left;
+  height: 36px;
+  line-height: 36px;
+  margin: 0 8px 0 0;
+  padding: 0;
+  text-align: center;
+  width: 36px;
+  transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+}
+
+/* line 151, ../sass/custom.scss */
+/* line 194, ../sass/custom.scss */
+.social li:hover {
+  transform: scale(1.15) rotate(360deg);
+  -webkit-transform: scale(1.1) rotate(360deg);
+  -moz-transform: scale(1.1) rotate(360deg);
+  -ms-transform: scale(1.1) rotate(360deg);
+  -o-transform: scale(1.1) rotate(360deg);
+}
+
+/* line 158, ../sass/custom.scss */
+/* line 203, ../sass/custom.scss */
+.social li a {
+  color: #EDEFF1;
+}
+
+/* line 161, ../sass/custom.scss */
+/* line 208, ../sass/custom.scss */
+.social li:hover {
+  border: 2px solid #2c3e50;
+  background: #2c3e50;
+}
+
+/* line 165, ../sass/custom.scss */
+/* line 214, ../sass/custom.scss */
+.social li a i {
+  font-size: 16px;
+  margin: 0 0 0 5px;
+  color: #EDEFF1 !important;
+}
+
+/* line 170, ../sass/custom.scss */
+/* line 221, ../sass/custom.scss */
+.footer-bottom {
+  background: #E3E3E3;
+  border-top: 1px solid #DDDDDD;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 176, ../sass/custom.scss */
+/* line 229, ../sass/custom.scss */
+.footer-bottom p.pull-left {
+  padding-top: 6px;
+}
+
+/* line 179, ../sass/custom.scss */
+/* line 234, ../sass/custom.scss */
+.payments {
+  font-size: 1.5em;
+}
+
+/* ------------------  google map -----------*/
+/* line 238, ../sass/custom.scss */
+.gmap {
+  width: 100%;
+  height: 450px;
+}
+
+/* line 243, ../sass/custom.scss */
+.gmap-wrap {
+  position: relative;
+}
+
+/* line 247, ../sass/custom.scss */
+.gmoverlay {
+  width: 100%;
+  min-height: 450px;
+  position: absolute;
+  top: 0;
+}
+
+/* ---------------------------------- */
+/* line 254, ../sass/custom.scss */
+.mediablock {
+  display: block;
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  /*    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3); */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  margin: 2px;
+}
+
+/* line 266, ../sass/custom.scss */
+body {
+  background-color: #fDfDfD;
+}
+.block-locale {
+  display: inline;
+  margin: 1.6em;
+}
+
+ul.language-switcher-locale-url .active {
+/*visibility: hidden;*/
+display: none;
+}
+
+ul.language-switcher-locale-url li {
+list-style-type: none;
+}
+
+.nav > li > a {
+/*    padding: 8px 5px; */
+}
+.menublock {
+width: 100%;
+margin-bottom:10px;
+}
+/*.menublock h2.block-title {
+font-size: 35px;
+}*/
+
+panel {
+box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3) !important;
+}
+body {
+background-image: url("/site2/sites/all/themes/hvg_paper/img/dots.png");
+}
+.btn-1 {background-color: #f1592a;}
+.btn-2 {background-color: #ffc60b;}
+.btn-3 {background-color: #a75ba5;}
+.btn-4 {background-color: #80c342;}
+.btn-5 {background-color: #67cdf3;}
+.btn-6 {background-color: #18bc9c;}
+
+a.thumbnail caption {
+text-decoration: none;
+}
+.locale-nav {
+line-height:1.0;
+float:right;
+}
+img.gray {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+}
+
+img:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+ 
+}
+#change div:hover{
+  	opacity:5;
+  cursor:pointer;
+}
+/*  ------------------------------------------------------------------- */
+.wrimagecard{	
+	margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    position: relative;
+    background: #fff;
+    box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+a.wrimagecard:hover, .wrimagecard-topimage:hover {
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+}
+.wrimagecard-topimage a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.wrimagecard-topimage_title {
+    padding: 20px 24px;
+    height: 80px;
+    padding-bottom: 0.75rem;
+    position: relative;
+}
+.wrimagecard-topimage a {
+    border-bottom: none;
+    text-decoration: none;
+    color: #525c65;
+    transition: color 0.3s ease;
+}
+
+/*
+.fa a, .fa a:hover {
+	color: #000;
+	text-decoration: none !important;
+	padding: 5px !important;
+}
+
+.socialbtnsbtnsbtns, .socialbtnsbtnsbtns ul, .socialbtnsbtnsbtns li {
+	margin: 0;
+	padding: 5px !important;
+}
+
+.socialbtnsbtnsbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+	color: #FFF;
+	text-shadow: 1px 1px 0px #000,
+			1px -1px 0px #000,
+			-1px 1px 0px #000,
+			-1px -1px 0px #000;
+	-webkit-text-shadow: 1px 1px 0px #000,
+			1px -1px 0px #000,
+			-1px 1px 0px #000,
+			-1px -1px 0px #000;
+	-moz-text-shadow: 1px 1px 0px #000,
+			1px -1px 0px #000,
+			-1px 1px 0px #000,
+			-1px -1px 0px #000;
+	-o-text-shadow: 1px 1px 0px #000,
+			1px -1px 0px #000,
+			-1px 1px 0px #000,
+			-1px -1px 0px #000;
+	transition: all ease-out 0.5s;
+	-moz-transition: all ease-out 0.5s;
+	-webkit-transition: all ease-out 0.5s;
+	-o-transition: all ease-out 0.5s;
+}
+
+.socialbtns .fa:hover {
+	color: #000;
+	text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	-webkit-text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	-moz-text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	-o-text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	transition: all ease 0.5s;
+	-moz-transition: all ease-in 0.5s;
+	-webkit-transition: all ease-in 0.5s;
+	-o-transition: all ease-in 0.5s;
+}
+*/
+.slick--skin--fullscreen {
+  z-index: 1000;
+}
+
+
+.block-card {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding-bottom: 150%;
+  perspective: 1000px;
+}
+
+.block-card:hover img {
+  /*
+  width: 103%;
+  filter: grayscale(0);
+  */
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+.block-card-text-block {
+  position: absolute;
+  bottom: 0px;
+  font-size:2vw;
+  font-weight:lighter;
+  text-shadow:1px 1px #000000;
+  text-indent:10%;
+  color: white;
+}
+.block-card img {
+  width: 100%;
+  position: absolute;
+
+  /*
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: grayscale(1);
+  transition-property: filter width;
+  transition-duration: 0.3s;
+  */
+  transition: transform .5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.block-card-hover-zoom {
+  height: 516px;
+  overflow: hidden; /* Removing this will break the effects */
+}
+.socialbtns {
+  color:#6666667d;
+  padding-top:25px;
+}
+.socialbtns a {
+  color:inherit;
+}
+.socialbtns a + a {
+  margin-left: 6px;
+}
+.socialbtns .fa-telegram:hover {
+  color: #28a7e8 !important;
+}
+.socialbtns .fa-facebook-f:hover {
+  color: #3b5998 !important;
+}
+.socialbtns .fa-youtube:hover {
+  color: #ed302f !important;
+}
+.socialbtns .fa-flickr:hover {
+  color: #ff2f96 !important;
+}
+
+ul.navbar-nav {
+  margin-top:1em;
+}

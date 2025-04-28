@@ -1,0 +1,91 @@
+/* Базовые стили для мобильных устройств */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card {
+    border-radius: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .day-label {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  .lesson-time {
+    font-size: 0.85rem;
+    color: #555;
+  }
+  
+  .teacher-name {
+    font-size: 0.75rem;
+    color: #888;
+  }
+  
+  .icon-img {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Navbar адаптация для мобильных */
+  .navbar-brand img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+  }
+  
+  /* ------------------------- */
+  /* Стили для Desktop (>=768px) */
+  /* ------------------------- */
+  @media (min-width: 768px) {
+    .day-label {
+      font-size: 1.2rem;
+    }
+  
+    .lesson-time {
+      font-size: 1rem;
+    }
+  
+    .teacher-name {
+      font-size: 0.9rem;
+    }
+  
+    .icon-img {
+      width: 32px;
+      height: 32px;
+    }
+  
+    .card {
+      text-align: center;
+      padding: 1.5rem;
+    }
+  
+    .navbar-brand img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  /* ------------------------- */
+  /* Стили для больших экранов (>=1200px) */
+  /* ------------------------- */
+  @media (min-width: 1200px) {
+    .card {
+      padding: 2rem;
+    }
+  
+    .day-label {
+      font-size: 1.4rem;
+    }
+  }
+  
